@@ -4,5 +4,9 @@ Rails.application.routes.draw do
 
 root 'home#index'
 
+get 'Flynn.html.erb' => 'home#Flynn'
+
+get 'Checkr.html.erb' => 'home#Checkr'
+
 
 end
